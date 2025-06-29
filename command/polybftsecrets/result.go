@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/command"
+	"github.com/lerax-chain/lerax-chain/command"
 
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/command/helper"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 type Results []command.CommandResult

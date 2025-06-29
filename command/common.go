@@ -6,12 +6,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/helper/common"
-	"github.com/0xPolygon/polygon-edge/secrets"
-	"github.com/0xPolygon/polygon-edge/secrets/local"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/lerax-chain/lerax-chain/crypto"
+	"github.com/lerax-chain/lerax-chain/helper/common"
+	"github.com/lerax-chain/lerax-chain/secrets"
+	"github.com/lerax-chain/lerax-chain/secrets/local"
+	"github.com/lerax-chain/lerax-chain/types"
+	"github.com/lerax-chain/lerax-chain/validators"
 	"github.com/hashicorp/go-hclog"
 )
 

@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/fork"
-	ibftOp "github.com/0xPolygon/polygon-edge/consensus/ibft/proto"
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/e2e/framework"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/consensus/ibft/fork"
+	ibftOp "github.com/lerax-chain/lerax-chain/consensus/ibft/proto"
+	"github.com/lerax-chain/lerax-chain/crypto"
+	"github.com/lerax-chain/lerax-chain/e2e/framework"
+	"github.com/lerax-chain/lerax-chain/types"
 	"github.com/stretchr/testify/assert"
 )
 

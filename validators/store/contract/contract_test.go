@@ -8,16 +8,16 @@ import (
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/contracts/staking"
-	"github.com/0xPolygon/polygon-edge/crypto"
-	stakingHelper "github.com/0xPolygon/polygon-edge/helper/staking"
-	testHelper "github.com/0xPolygon/polygon-edge/helper/tests"
-	"github.com/0xPolygon/polygon-edge/state"
-	itrie "github.com/0xPolygon/polygon-edge/state/immutable-trie"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
-	"github.com/0xPolygon/polygon-edge/validators/store"
+	"github.com/lerax-chain/lerax-chain/chain"
+	"github.com/lerax-chain/lerax-chain/contracts/staking"
+	"github.com/lerax-chain/lerax-chain/crypto"
+	stakingHelper "github.com/lerax-chain/lerax-chain/helper/staking"
+	testHelper "github.com/lerax-chain/lerax-chain/helper/tests"
+	"github.com/lerax-chain/lerax-chain/state"
+	itrie "github.com/lerax-chain/lerax-chain/state/immutable-trie"
+	"github.com/lerax-chain/lerax-chain/types"
+	"github.com/lerax-chain/lerax-chain/validators"
+	"github.com/lerax-chain/lerax-chain/validators/store"
 )
 
 var (

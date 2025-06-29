@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo"
 
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/consensus/polybft"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/command"
+	"github.com/lerax-chain/lerax-chain/command/helper"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 func Test_extractNativeTokenMetadata(t *testing.T) {

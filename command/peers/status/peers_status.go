@@ -1,8 +1,8 @@
 package status
 
 import (
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/helper"
+	"github.com/lerax-chain/lerax-chain/command"
+	"github.com/lerax-chain/lerax-chain/command/helper"
 	"github.com/spf13/cobra"
 )
 

@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/helper/common"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/helper/keccak"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/lerax-chain/lerax-chain/chain"
+	"github.com/lerax-chain/lerax-chain/helper/common"
+	"github.com/lerax-chain/lerax-chain/helper/hex"
+	"github.com/lerax-chain/lerax-chain/helper/keccak"
+	"github.com/lerax-chain/lerax-chain/types"
+	"github.com/lerax-chain/lerax-chain/validators"
 )
 
 var (
@@ -46,7 +46,7 @@ func getIndexWithOffset(keccakHash []byte, offset uint64) []byte {
 // of the storage slots which need to be modified during bootstrap.
 //
 // It is SC dependant, and based on the SC located at:
-// https://github.com/0xPolygon/staking-contracts/
+// https://github.com/lerax-chain/staking-contracts/
 func getStorageIndexes(validator validators.Validator, index int) *StorageIndexes {
 	storageIndexes := &StorageIndexes{}
 	address := validator.Addr()
@@ -169,7 +169,7 @@ func PredeployStakingSC(
 	params PredeployParams,
 ) (*chain.GenesisAccount, error) {
 	// Set the code for the staking smart contract
-	// Code retrieved from https://github.com/0xPolygon/staking-contracts
+	// Code retrieved from https://github.com/lerax-chain/staking-contracts
 	scHex, _ := hex.DecodeHex(StakingSCBytecode)
 	stakingAccount := &chain.GenesisAccount{
 		Code: scHex,

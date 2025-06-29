@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/consensus/polybft/wallet"
-	"github.com/0xPolygon/polygon-edge/secrets"
-	"github.com/0xPolygon/polygon-edge/secrets/helper"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/command"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft/wallet"
+	"github.com/lerax-chain/lerax-chain/secrets"
+	"github.com/lerax-chain/lerax-chain/secrets/helper"
+	"github.com/lerax-chain/lerax-chain/types"
 	"github.com/spf13/cobra"
 )
 

@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/consensus/polybft/validator"
-	"github.com/0xPolygon/polygon-edge/helper/common"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/chain"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft/validator"
+	"github.com/lerax-chain/lerax-chain/helper/common"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 const (

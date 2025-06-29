@@ -3,12 +3,12 @@ package mint
 import (
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/command/polybftsecrets"
-	rootHelper "github.com/0xPolygon/polygon-edge/command/rootchain/helper"
-	"github.com/0xPolygon/polygon-edge/txrelayer"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/command"
+	"github.com/lerax-chain/lerax-chain/command/helper"
+	"github.com/lerax-chain/lerax-chain/command/polybftsecrets"
+	rootHelper "github.com/lerax-chain/lerax-chain/command/rootchain/helper"
+	"github.com/lerax-chain/lerax-chain/txrelayer"
+	"github.com/lerax-chain/lerax-chain/types"
 	"github.com/spf13/cobra"
 	"golang.org/x/sync/errgroup"
 )

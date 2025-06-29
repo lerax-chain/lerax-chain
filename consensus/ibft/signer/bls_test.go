@@ -6,12 +6,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	testHelper "github.com/0xPolygon/polygon-edge/helper/tests"
-	"github.com/0xPolygon/polygon-edge/secrets"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/lerax-chain/lerax-chain/crypto"
+	"github.com/lerax-chain/lerax-chain/helper/hex"
+	testHelper "github.com/lerax-chain/lerax-chain/helper/tests"
+	"github.com/lerax-chain/lerax-chain/secrets"
+	"github.com/lerax-chain/lerax-chain/types"
+	"github.com/lerax-chain/lerax-chain/validators"
 	"github.com/coinbase/kryptology/pkg/signatures/bls/bls_sig"
 	"github.com/stretchr/testify/assert"
 )

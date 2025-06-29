@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/helper/common"
+	"github.com/lerax-chain/lerax-chain/command"
+	"github.com/lerax-chain/lerax-chain/helper/common"
 	"github.com/spf13/cobra"
 
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/server/proto"
+	"github.com/lerax-chain/lerax-chain/command/helper"
+	"github.com/lerax-chain/lerax-chain/server/proto"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )
 

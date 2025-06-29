@@ -3,12 +3,12 @@ package status
 import (
 	"context"
 
-	"github.com/0xPolygon/polygon-edge/command"
+	"github.com/lerax-chain/lerax-chain/command"
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/spf13/cobra"
 
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/server/proto"
+	"github.com/lerax-chain/lerax-chain/command/helper"
+	"github.com/lerax-chain/lerax-chain/server/proto"
 )
 
 func GetCommand() *cobra.Command {

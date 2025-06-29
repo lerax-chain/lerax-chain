@@ -9,12 +9,12 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/0xPolygon/polygon-edge/bls"
-	"github.com/0xPolygon/polygon-edge/consensus/polybft/contractsapi"
-	"github.com/0xPolygon/polygon-edge/crypto"
+	"github.com/lerax-chain/lerax-chain/bls"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft/contractsapi"
+	"github.com/lerax-chain/lerax-chain/crypto"
 
-	"github.com/0xPolygon/polygon-edge/consensus/polybft/bitmap"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft/bitmap"
+	"github.com/lerax-chain/lerax-chain/types"
 	"github.com/umbracle/ethgo/abi"
 	"github.com/umbracle/fastrlp"
 )

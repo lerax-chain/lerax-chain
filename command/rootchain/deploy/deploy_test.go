@@ -10,12 +10,12 @@ import (
 	"github.com/umbracle/ethgo/jsonrpc"
 	"github.com/umbracle/ethgo/testutil"
 
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/rootchain/helper"
-	"github.com/0xPolygon/polygon-edge/consensus/polybft"
-	"github.com/0xPolygon/polygon-edge/consensus/polybft/contractsapi"
-	"github.com/0xPolygon/polygon-edge/consensus/polybft/validator"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/command"
+	"github.com/lerax-chain/lerax-chain/command/rootchain/helper"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft/contractsapi"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft/validator"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 func TestDeployContracts_NoPanics(t *testing.T) {

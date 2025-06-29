@@ -21,9 +21,9 @@ import (
 	"github.com/docker/go-connections/nat"
 	"github.com/spf13/cobra"
 
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/rootchain/helper"
-	"github.com/0xPolygon/polygon-edge/helper/common"
+	"github.com/lerax-chain/lerax-chain/command"
+	"github.com/lerax-chain/lerax-chain/command/rootchain/helper"
+	"github.com/lerax-chain/lerax-chain/helper/common"
 )
 
 const (

@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	sidechainHelper "github.com/0xPolygon/polygon-edge/command/sidechain"
+	"github.com/lerax-chain/lerax-chain/command/helper"
+	sidechainHelper "github.com/lerax-chain/lerax-chain/command/sidechain"
 )
 
 type validatorInfoParams struct {

@@ -1,10 +1,10 @@
 package secrets
 
 import (
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/command/secrets/generate"
-	initCmd "github.com/0xPolygon/polygon-edge/command/secrets/init"
-	"github.com/0xPolygon/polygon-edge/command/secrets/output"
+	"github.com/lerax-chain/lerax-chain/command/helper"
+	"github.com/lerax-chain/lerax-chain/command/secrets/generate"
+	initCmd "github.com/lerax-chain/lerax-chain/command/secrets/init"
+	"github.com/lerax-chain/lerax-chain/command/secrets/output"
 	"github.com/spf13/cobra"
 )
 

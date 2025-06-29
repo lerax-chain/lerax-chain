@@ -1,16 +1,16 @@
 package polybft
 
 import (
-	"github.com/0xPolygon/polygon-edge/command/rootchain/registration"
-	"github.com/0xPolygon/polygon-edge/command/rootchain/staking"
-	"github.com/0xPolygon/polygon-edge/command/rootchain/supernet"
-	"github.com/0xPolygon/polygon-edge/command/rootchain/supernet/stakemanager"
-	"github.com/0xPolygon/polygon-edge/command/rootchain/validators"
-	"github.com/0xPolygon/polygon-edge/command/rootchain/whitelist"
-	"github.com/0xPolygon/polygon-edge/command/rootchain/withdraw"
-	"github.com/0xPolygon/polygon-edge/command/sidechain/rewards"
-	"github.com/0xPolygon/polygon-edge/command/sidechain/unstaking"
-	sidechainWithdraw "github.com/0xPolygon/polygon-edge/command/sidechain/withdraw"
+	"github.com/lerax-chain/lerax-chain/command/rootchain/registration"
+	"github.com/lerax-chain/lerax-chain/command/rootchain/staking"
+	"github.com/lerax-chain/lerax-chain/command/rootchain/supernet"
+	"github.com/lerax-chain/lerax-chain/command/rootchain/supernet/stakemanager"
+	"github.com/lerax-chain/lerax-chain/command/rootchain/validators"
+	"github.com/lerax-chain/lerax-chain/command/rootchain/whitelist"
+	"github.com/lerax-chain/lerax-chain/command/rootchain/withdraw"
+	"github.com/lerax-chain/lerax-chain/command/sidechain/rewards"
+	"github.com/lerax-chain/lerax-chain/command/sidechain/unstaking"
+	sidechainWithdraw "github.com/lerax-chain/lerax-chain/command/sidechain/withdraw"
 	"github.com/spf13/cobra"
 )
 

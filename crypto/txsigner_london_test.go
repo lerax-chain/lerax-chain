@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo"
 
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 func TestLondonSignerSender(t *testing.T) {

@@ -1,8 +1,8 @@
 package signer
 
 import (
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/lerax-chain/lerax-chain/types"
+	"github.com/lerax-chain/lerax-chain/validators"
 )
 
 // KeyManager is a delegated module that signs data

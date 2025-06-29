@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/helper/keccak"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/chain"
+	"github.com/lerax-chain/lerax-chain/helper/keccak"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 // Magic numbers from Ethereum, used in v calculation

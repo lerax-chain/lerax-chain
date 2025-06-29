@@ -10,10 +10,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/umbracle/ethgo"
 
-	cmdHelper "github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/consensus/polybft/contractsapi"
-	"github.com/0xPolygon/polygon-edge/txrelayer"
-	"github.com/0xPolygon/polygon-edge/types"
+	cmdHelper "github.com/lerax-chain/lerax-chain/command/helper"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft/contractsapi"
+	"github.com/lerax-chain/lerax-chain/txrelayer"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 type TokenType int

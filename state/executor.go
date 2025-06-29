@@ -8,15 +8,15 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/contracts"
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
-	"github.com/0xPolygon/polygon-edge/state/runtime/addresslist"
-	"github.com/0xPolygon/polygon-edge/state/runtime/evm"
-	"github.com/0xPolygon/polygon-edge/state/runtime/precompiled"
-	"github.com/0xPolygon/polygon-edge/state/runtime/tracer"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/chain"
+	"github.com/lerax-chain/lerax-chain/contracts"
+	"github.com/lerax-chain/lerax-chain/crypto"
+	"github.com/lerax-chain/lerax-chain/state/runtime"
+	"github.com/lerax-chain/lerax-chain/state/runtime/addresslist"
+	"github.com/lerax-chain/lerax-chain/state/runtime/evm"
+	"github.com/lerax-chain/lerax-chain/state/runtime/precompiled"
+	"github.com/lerax-chain/lerax-chain/state/runtime/tracer"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 const (

@@ -11,8 +11,8 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/require"
 
-	"github.com/0xPolygon/polygon-edge/helper/tests"
-	"github.com/0xPolygon/polygon-edge/versioning"
+	"github.com/lerax-chain/lerax-chain/helper/tests"
+	"github.com/lerax-chain/lerax-chain/versioning"
 )
 
 func TestHTTPServer(t *testing.T) {

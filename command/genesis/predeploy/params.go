@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/contracts/staking"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/helper/predeployment"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/chain"
+	"github.com/lerax-chain/lerax-chain/command"
+	"github.com/lerax-chain/lerax-chain/command/helper"
+	"github.com/lerax-chain/lerax-chain/contracts/staking"
+	"github.com/lerax-chain/lerax-chain/helper/hex"
+	"github.com/lerax-chain/lerax-chain/helper/predeployment"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 const (

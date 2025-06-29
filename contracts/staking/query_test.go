@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/contracts/abis"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/contracts/abis"
+	"github.com/lerax-chain/lerax-chain/state/runtime"
+	"github.com/lerax-chain/lerax-chain/types"
 	"github.com/stretchr/testify/assert"
 )
 

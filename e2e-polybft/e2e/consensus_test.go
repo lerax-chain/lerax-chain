@@ -15,15 +15,15 @@ import (
 	"github.com/umbracle/ethgo/abi"
 	"github.com/umbracle/ethgo/wallet"
 
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/genesis"
-	"github.com/0xPolygon/polygon-edge/command/sidechain"
-	"github.com/0xPolygon/polygon-edge/consensus/polybft"
-	"github.com/0xPolygon/polygon-edge/consensus/polybft/contractsapi"
-	"github.com/0xPolygon/polygon-edge/contracts"
-	"github.com/0xPolygon/polygon-edge/e2e-polybft/framework"
-	"github.com/0xPolygon/polygon-edge/txrelayer"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/command"
+	"github.com/lerax-chain/lerax-chain/command/genesis"
+	"github.com/lerax-chain/lerax-chain/command/sidechain"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft/contractsapi"
+	"github.com/lerax-chain/lerax-chain/contracts"
+	"github.com/lerax-chain/lerax-chain/e2e-polybft/framework"
+	"github.com/lerax-chain/lerax-chain/txrelayer"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 var uint256ABIType = abi.MustNewType("tuple(uint256)")

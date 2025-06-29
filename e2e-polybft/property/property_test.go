@@ -12,8 +12,8 @@ import (
 	"github.com/umbracle/ethgo/wallet"
 	"pgregory.net/rapid"
 
-	"github.com/0xPolygon/polygon-edge/e2e-polybft/framework"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/e2e-polybft/framework"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 func TestProperty_DifferentVotingPower(t *testing.T) {

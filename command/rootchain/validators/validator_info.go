@@ -3,13 +3,13 @@ package validators
 import (
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/command/polybftsecrets"
-	rootHelper "github.com/0xPolygon/polygon-edge/command/rootchain/helper"
-	sidechainHelper "github.com/0xPolygon/polygon-edge/command/sidechain"
-	"github.com/0xPolygon/polygon-edge/txrelayer"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/command"
+	"github.com/lerax-chain/lerax-chain/command/helper"
+	"github.com/lerax-chain/lerax-chain/command/polybftsecrets"
+	rootHelper "github.com/lerax-chain/lerax-chain/command/rootchain/helper"
+	sidechainHelper "github.com/lerax-chain/lerax-chain/command/sidechain"
+	"github.com/lerax-chain/lerax-chain/txrelayer"
+	"github.com/lerax-chain/lerax-chain/types"
 	"github.com/spf13/cobra"
 )
 

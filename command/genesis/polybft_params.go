@@ -11,17 +11,17 @@ import (
 
 	"github.com/multiformats/go-multiaddr"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/consensus/polybft"
-	"github.com/0xPolygon/polygon-edge/consensus/polybft/contractsapi"
-	"github.com/0xPolygon/polygon-edge/consensus/polybft/contractsapi/artifact"
-	"github.com/0xPolygon/polygon-edge/consensus/polybft/validator"
-	"github.com/0xPolygon/polygon-edge/contracts"
-	"github.com/0xPolygon/polygon-edge/helper/common"
-	"github.com/0xPolygon/polygon-edge/server"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/chain"
+	"github.com/lerax-chain/lerax-chain/command"
+	"github.com/lerax-chain/lerax-chain/command/helper"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft/contractsapi"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft/contractsapi/artifact"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft/validator"
+	"github.com/lerax-chain/lerax-chain/contracts"
+	"github.com/lerax-chain/lerax-chain/helper/common"
+	"github.com/lerax-chain/lerax-chain/server"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 const (

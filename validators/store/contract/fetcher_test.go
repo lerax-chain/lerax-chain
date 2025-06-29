@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	testHelper "github.com/0xPolygon/polygon-edge/helper/tests"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	testHelper "github.com/lerax-chain/lerax-chain/helper/tests"
+	"github.com/lerax-chain/lerax-chain/state"
+	"github.com/lerax-chain/lerax-chain/types"
+	"github.com/lerax-chain/lerax-chain/validators"
 	"github.com/stretchr/testify/assert"
 )
 

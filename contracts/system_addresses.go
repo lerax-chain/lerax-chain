@@ -1,6 +1,6 @@
 package contracts
 
-import "github.com/0xPolygon/polygon-edge/types"
+import "github.com/lerax-chain/lerax-chain/types"
 
 var (
 	// ValidatorSetContract is an address of validator set proxy contract deployed to child chain

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/secrets"
+	"github.com/lerax-chain/lerax-chain/secrets"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

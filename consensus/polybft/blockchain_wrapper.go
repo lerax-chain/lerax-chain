@@ -8,11 +8,11 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/0xPolygon/polygon-edge/blockchain"
-	"github.com/0xPolygon/polygon-edge/consensus"
-	"github.com/0xPolygon/polygon-edge/contracts"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/blockchain"
+	"github.com/lerax-chain/lerax-chain/consensus"
+	"github.com/lerax-chain/lerax-chain/contracts"
+	"github.com/lerax-chain/lerax-chain/state"
+	"github.com/lerax-chain/lerax-chain/types"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/contract"
 )

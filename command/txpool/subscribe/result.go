@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	txpoolProto "github.com/0xPolygon/polygon-edge/txpool/proto"
+	"github.com/lerax-chain/lerax-chain/command/helper"
+	txpoolProto "github.com/lerax-chain/lerax-chain/txpool/proto"
 )
 
 type TxPoolEventResult struct {

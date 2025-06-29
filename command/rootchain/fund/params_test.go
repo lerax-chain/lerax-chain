@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	rootHelper "github.com/0xPolygon/polygon-edge/command/rootchain/helper"
-	"github.com/0xPolygon/polygon-edge/types"
+	rootHelper "github.com/lerax-chain/lerax-chain/command/rootchain/helper"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 func Test_validateFlags(t *testing.T) {

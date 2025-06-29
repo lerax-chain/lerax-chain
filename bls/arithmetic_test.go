@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/0xPolygon/polygon-edge/helper/common"
+	"github.com/lerax-chain/lerax-chain/helper/common"
 )
 
 //go:embed testcases/*

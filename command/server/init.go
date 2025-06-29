@@ -6,16 +6,16 @@ import (
 	"math"
 	"net"
 
-	"github.com/0xPolygon/polygon-edge/command/server/config"
+	"github.com/lerax-chain/lerax-chain/command/server/config"
 
-	helperCommon "github.com/0xPolygon/polygon-edge/helper/common"
-	"github.com/0xPolygon/polygon-edge/network/common"
+	helperCommon "github.com/lerax-chain/lerax-chain/helper/common"
+	"github.com/lerax-chain/lerax-chain/network/common"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/network"
-	"github.com/0xPolygon/polygon-edge/secrets"
-	"github.com/0xPolygon/polygon-edge/server"
+	"github.com/lerax-chain/lerax-chain/chain"
+	"github.com/lerax-chain/lerax-chain/command/helper"
+	"github.com/lerax-chain/lerax-chain/network"
+	"github.com/lerax-chain/lerax-chain/secrets"
+	"github.com/lerax-chain/lerax-chain/server"
 )
 
 var (

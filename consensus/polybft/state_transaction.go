@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/consensus/polybft/contractsapi"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft/contractsapi"
 )
 
 const abiMethodIDLength = 4

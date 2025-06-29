@@ -8,15 +8,15 @@ import (
 	libp2pCrypto "github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/libp2p/go-libp2p/core/peer"
 
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/network"
-	"github.com/0xPolygon/polygon-edge/secrets"
-	"github.com/0xPolygon/polygon-edge/secrets/awsssm"
-	"github.com/0xPolygon/polygon-edge/secrets/gcpssm"
-	"github.com/0xPolygon/polygon-edge/secrets/hashicorpvault"
-	"github.com/0xPolygon/polygon-edge/secrets/local"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/crypto"
+	"github.com/lerax-chain/lerax-chain/helper/hex"
+	"github.com/lerax-chain/lerax-chain/network"
+	"github.com/lerax-chain/lerax-chain/secrets"
+	"github.com/lerax-chain/lerax-chain/secrets/awsssm"
+	"github.com/lerax-chain/lerax-chain/secrets/gcpssm"
+	"github.com/lerax-chain/lerax-chain/secrets/hashicorpvault"
+	"github.com/lerax-chain/lerax-chain/secrets/local"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 // SetupLocalSecretsManager is a helper method for boilerplate local secrets manager setup

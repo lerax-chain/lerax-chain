@@ -4,9 +4,9 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/0xPolygon/polygon-edge/blockchain"
-	"github.com/0xPolygon/polygon-edge/txpool/proto"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/blockchain"
+	"github.com/lerax-chain/lerax-chain/txpool/proto"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 type mockAccount struct {

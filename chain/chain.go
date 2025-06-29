@@ -10,9 +10,9 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"github.com/umbracle/ethgo"
 
-	"github.com/0xPolygon/polygon-edge/helper/common"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/helper/common"
+	"github.com/lerax-chain/lerax-chain/helper/hex"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 const (

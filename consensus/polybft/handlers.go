@@ -1,8 +1,8 @@
 package polybft
 
 import (
-	"github.com/0xPolygon/polygon-edge/consensus/polybft/validator"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft/validator"
+	"github.com/lerax-chain/lerax-chain/types"
 	bolt "go.etcd.io/bbolt"
 )
 

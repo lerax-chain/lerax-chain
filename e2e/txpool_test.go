@@ -8,18 +8,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/chain"
+	"github.com/lerax-chain/lerax-chain/chain"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/0xPolygon/polygon-edge/txpool"
+	"github.com/lerax-chain/lerax-chain/txpool"
 	"github.com/umbracle/ethgo"
 
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/e2e/framework"
-	"github.com/0xPolygon/polygon-edge/helper/tests"
-	txpoolOp "github.com/0xPolygon/polygon-edge/txpool/proto"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/crypto"
+	"github.com/lerax-chain/lerax-chain/e2e/framework"
+	"github.com/lerax-chain/lerax-chain/helper/tests"
+	txpoolOp "github.com/lerax-chain/lerax-chain/txpool/proto"
+	"github.com/lerax-chain/lerax-chain/types"
 	"github.com/golang/protobuf/ptypes/any"
 	"github.com/stretchr/testify/assert"
 )

@@ -5,12 +5,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/proto"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/signer"
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
-	"github.com/0xPolygon/polygon-edge/validators/store"
+	"github.com/lerax-chain/lerax-chain/consensus/ibft/proto"
+	"github.com/lerax-chain/lerax-chain/consensus/ibft/signer"
+	"github.com/lerax-chain/lerax-chain/crypto"
+	"github.com/lerax-chain/lerax-chain/types"
+	"github.com/lerax-chain/lerax-chain/validators"
+	"github.com/lerax-chain/lerax-chain/validators/store"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )
 

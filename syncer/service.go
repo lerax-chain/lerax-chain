@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/0xPolygon/polygon-edge/network/grpc"
-	"github.com/0xPolygon/polygon-edge/syncer/proto"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/network/grpc"
+	"github.com/lerax-chain/lerax-chain/syncer/proto"
+	"github.com/lerax-chain/lerax-chain/types"
 	"github.com/armon/go-metrics"
 	"github.com/golang/protobuf/ptypes/empty"
 )

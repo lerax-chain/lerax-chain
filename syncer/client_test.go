@@ -11,12 +11,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/0xPolygon/polygon-edge/blockchain"
-	"github.com/0xPolygon/polygon-edge/network"
-	"github.com/0xPolygon/polygon-edge/network/event"
-	"github.com/0xPolygon/polygon-edge/network/grpc"
-	"github.com/0xPolygon/polygon-edge/syncer/proto"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/blockchain"
+	"github.com/lerax-chain/lerax-chain/network"
+	"github.com/lerax-chain/lerax-chain/network/event"
+	"github.com/lerax-chain/lerax-chain/network/grpc"
+	"github.com/lerax-chain/lerax-chain/syncer/proto"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 var (

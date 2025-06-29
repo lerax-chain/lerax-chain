@@ -1,10 +1,10 @@
 package peers
 
 import (
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/command/peers/add"
-	"github.com/0xPolygon/polygon-edge/command/peers/list"
-	"github.com/0xPolygon/polygon-edge/command/peers/status"
+	"github.com/lerax-chain/lerax-chain/command/helper"
+	"github.com/lerax-chain/lerax-chain/command/peers/add"
+	"github.com/lerax-chain/lerax-chain/command/peers/list"
+	"github.com/lerax-chain/lerax-chain/command/peers/status"
 	"github.com/spf13/cobra"
 )
 

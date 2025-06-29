@@ -13,16 +13,16 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/0xPolygon/polygon-edge/command"
-	bridgeCommon "github.com/0xPolygon/polygon-edge/command/bridge/common"
-	"github.com/0xPolygon/polygon-edge/command/genesis"
-	cmdHelper "github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/command/polybftsecrets"
-	rootHelper "github.com/0xPolygon/polygon-edge/command/rootchain/helper"
-	"github.com/0xPolygon/polygon-edge/command/rootchain/server"
-	"github.com/0xPolygon/polygon-edge/consensus/polybft"
-	"github.com/0xPolygon/polygon-edge/consensus/polybft/wallet"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/command"
+	bridgeCommon "github.com/lerax-chain/lerax-chain/command/bridge/common"
+	"github.com/lerax-chain/lerax-chain/command/genesis"
+	cmdHelper "github.com/lerax-chain/lerax-chain/command/helper"
+	"github.com/lerax-chain/lerax-chain/command/polybftsecrets"
+	rootHelper "github.com/lerax-chain/lerax-chain/command/rootchain/helper"
+	"github.com/lerax-chain/lerax-chain/command/rootchain/server"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft/wallet"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 type TestBridge struct {

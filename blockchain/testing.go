@@ -6,15 +6,15 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/blockchain/storage"
-	"github.com/0xPolygon/polygon-edge/blockchain/storage/memory"
+	"github.com/lerax-chain/lerax-chain/blockchain/storage"
+	"github.com/lerax-chain/lerax-chain/blockchain/storage/memory"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/state"
-	itrie "github.com/0xPolygon/polygon-edge/state/immutable-trie"
+	"github.com/lerax-chain/lerax-chain/chain"
+	"github.com/lerax-chain/lerax-chain/state"
+	itrie "github.com/lerax-chain/lerax-chain/state/immutable-trie"
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 var (

@@ -25,7 +25,7 @@ jobs:
           go-version: 1.20.x
 
       - name: Build Polygon Edge
-        run: go build -tags netgo -ldflags="-s -w -linkmode external -extldflags "-static" -X \"github.com/0xPolygon/polygon-edge/versioning.Version=${GITHUB_REF_NAME}\" -X \"github.com/0xPolygon/polygon-edge/versioning.Commit=${GITHUB_SHA}\"" && tar -czvf polygon-edge.tar.gz polygon-edge
+        run: go build -tags netgo -ldflags="-s -w -linkmode external -extldflags "-static" -X \"github.com/lerax-chain/lerax-chain/versioning.Version=${GITHUB_REF_NAME}\" -X \"github.com/lerax-chain/lerax-chain/versioning.Commit=${GITHUB_SHA}\"" && tar -czvf polygon-edge.tar.gz polygon-edge
         env:
           CC: gcc
           CXX: g++

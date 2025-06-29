@@ -1,8 +1,8 @@
 package hook
 
 import (
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/state"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 type ShouldWriteTransactionsFunc func(uint64) bool

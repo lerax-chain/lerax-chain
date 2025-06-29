@@ -10,9 +10,9 @@ import (
 	"testing"
 	"text/template"
 
-	"github.com/0xPolygon/polygon-edge/helper/hex"
+	"github.com/lerax-chain/lerax-chain/helper/hex"
 
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

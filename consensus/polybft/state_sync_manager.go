@@ -16,16 +16,16 @@ import (
 	bolt "go.etcd.io/bbolt"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/0xPolygon/polygon-edge/bls"
-	"github.com/0xPolygon/polygon-edge/consensus/polybft/bitmap"
-	"github.com/0xPolygon/polygon-edge/consensus/polybft/contractsapi"
-	polybftProto "github.com/0xPolygon/polygon-edge/consensus/polybft/proto"
-	"github.com/0xPolygon/polygon-edge/consensus/polybft/signer"
-	"github.com/0xPolygon/polygon-edge/consensus/polybft/validator"
-	"github.com/0xPolygon/polygon-edge/consensus/polybft/wallet"
-	"github.com/0xPolygon/polygon-edge/contracts"
-	"github.com/0xPolygon/polygon-edge/tracker"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/bls"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft/bitmap"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft/contractsapi"
+	polybftProto "github.com/lerax-chain/lerax-chain/consensus/polybft/proto"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft/signer"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft/validator"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft/wallet"
+	"github.com/lerax-chain/lerax-chain/contracts"
+	"github.com/lerax-chain/lerax-chain/tracker"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 type Runtime interface {

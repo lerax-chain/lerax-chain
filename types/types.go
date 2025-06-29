@@ -7,8 +7,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/helper/keccak"
+	"github.com/lerax-chain/lerax-chain/helper/hex"
+	"github.com/lerax-chain/lerax-chain/helper/keccak"
 )
 
 const (

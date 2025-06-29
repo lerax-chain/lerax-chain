@@ -16,9 +16,9 @@ import (
 	"github.com/multiformats/go-multiaddr"
 	"github.com/umbracle/ethgo"
 
-	"github.com/0xPolygon/polygon-edge/crypto"
-	txpoolOp "github.com/0xPolygon/polygon-edge/txpool/proto"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/crypto"
+	txpoolOp "github.com/lerax-chain/lerax-chain/txpool/proto"
+	"github.com/lerax-chain/lerax-chain/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/umbracle/ethgo/jsonrpc"
 	empty "google.golang.org/protobuf/types/known/emptypb"

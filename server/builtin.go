@@ -1,19 +1,19 @@
 package server
 
 import (
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/consensus"
-	consensusDev "github.com/0xPolygon/polygon-edge/consensus/dev"
-	consensusDummy "github.com/0xPolygon/polygon-edge/consensus/dummy"
-	consensusIBFT "github.com/0xPolygon/polygon-edge/consensus/ibft"
-	consensusPolyBFT "github.com/0xPolygon/polygon-edge/consensus/polybft"
-	"github.com/0xPolygon/polygon-edge/forkmanager"
-	"github.com/0xPolygon/polygon-edge/secrets"
-	"github.com/0xPolygon/polygon-edge/secrets/awsssm"
-	"github.com/0xPolygon/polygon-edge/secrets/gcpssm"
-	"github.com/0xPolygon/polygon-edge/secrets/hashicorpvault"
-	"github.com/0xPolygon/polygon-edge/secrets/local"
-	"github.com/0xPolygon/polygon-edge/state"
+	"github.com/lerax-chain/lerax-chain/chain"
+	"github.com/lerax-chain/lerax-chain/consensus"
+	consensusDev "github.com/lerax-chain/lerax-chain/consensus/dev"
+	consensusDummy "github.com/lerax-chain/lerax-chain/consensus/dummy"
+	consensusIBFT "github.com/lerax-chain/lerax-chain/consensus/ibft"
+	consensusPolyBFT "github.com/lerax-chain/lerax-chain/consensus/polybft"
+	"github.com/lerax-chain/lerax-chain/forkmanager"
+	"github.com/lerax-chain/lerax-chain/secrets"
+	"github.com/lerax-chain/lerax-chain/secrets/awsssm"
+	"github.com/lerax-chain/lerax-chain/secrets/gcpssm"
+	"github.com/lerax-chain/lerax-chain/secrets/hashicorpvault"
+	"github.com/lerax-chain/lerax-chain/secrets/local"
+	"github.com/lerax-chain/lerax-chain/state"
 )
 
 type GenesisFactoryHook func(config *chain.Chain, engineName string) func(*state.Transition) error

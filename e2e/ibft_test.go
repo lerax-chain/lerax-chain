@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	ibftSigner "github.com/0xPolygon/polygon-edge/consensus/ibft/signer"
-	"github.com/0xPolygon/polygon-edge/e2e/framework"
-	"github.com/0xPolygon/polygon-edge/helper/tests"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	ibftSigner "github.com/lerax-chain/lerax-chain/consensus/ibft/signer"
+	"github.com/lerax-chain/lerax-chain/e2e/framework"
+	"github.com/lerax-chain/lerax-chain/helper/tests"
+	"github.com/lerax-chain/lerax-chain/types"
+	"github.com/lerax-chain/lerax-chain/validators"
 	"github.com/stretchr/testify/assert"
 	"github.com/umbracle/ethgo"
 )

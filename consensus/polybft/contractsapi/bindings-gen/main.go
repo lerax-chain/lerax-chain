@@ -13,9 +13,9 @@ import (
 
 	"github.com/umbracle/ethgo/abi"
 
-	gensc "github.com/0xPolygon/polygon-edge/consensus/polybft/contractsapi"
-	"github.com/0xPolygon/polygon-edge/consensus/polybft/contractsapi/artifact"
-	"github.com/0xPolygon/polygon-edge/helper/common"
+	gensc "github.com/lerax-chain/lerax-chain/consensus/polybft/contractsapi"
+	"github.com/lerax-chain/lerax-chain/consensus/polybft/contractsapi/artifact"
+	"github.com/lerax-chain/lerax-chain/helper/common"
 )
 
 const (
@@ -473,7 +473,7 @@ package contractsapi
 import (
 	"math/big"
 
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/types"
 	"github.com/umbracle/ethgo/abi"
 	"github.com/umbracle/ethgo"
 )

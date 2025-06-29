@@ -6,11 +6,11 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
-	"github.com/0xPolygon/polygon-edge/state/runtime/evm"
-	"github.com/0xPolygon/polygon-edge/state/runtime/tracer"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/helper/hex"
+	"github.com/lerax-chain/lerax-chain/state/runtime"
+	"github.com/lerax-chain/lerax-chain/state/runtime/evm"
+	"github.com/lerax-chain/lerax-chain/state/runtime/tracer"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 type Config struct {

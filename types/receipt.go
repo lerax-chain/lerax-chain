@@ -4,8 +4,8 @@ import (
 	goHex "encoding/hex"
 	"strings"
 
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/helper/keccak"
+	"github.com/lerax-chain/lerax-chain/helper/hex"
+	"github.com/lerax-chain/lerax-chain/helper/keccak"
 )
 
 type ReceiptStatus uint64

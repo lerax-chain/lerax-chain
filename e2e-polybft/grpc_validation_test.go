@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/e2e-polybft/framework"
-	serverProto "github.com/0xPolygon/polygon-edge/server/proto"
-	txpoolProto "github.com/0xPolygon/polygon-edge/txpool/proto"
+	"github.com/lerax-chain/lerax-chain/e2e-polybft/framework"
+	serverProto "github.com/lerax-chain/lerax-chain/server/proto"
+	txpoolProto "github.com/lerax-chain/lerax-chain/txpool/proto"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/emptypb"
 )

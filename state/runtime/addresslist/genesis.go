@@ -3,8 +3,8 @@ package addresslist
 import (
 	"math/big"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/chain"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 func ApplyGenesisAllocs(chain *chain.Genesis, addressListAddr types.Address, config *chain.AddressListConfig) {

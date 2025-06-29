@@ -4,7 +4,7 @@ import (
 	"container/heap"
 	"math/big"
 
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/types"
 )
 
 type pricedQueue struct {

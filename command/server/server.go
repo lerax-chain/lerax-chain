@@ -3,11 +3,11 @@ package server
 import (
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/command/server/config"
-	"github.com/0xPolygon/polygon-edge/command/server/export"
-	"github.com/0xPolygon/polygon-edge/server"
+	"github.com/lerax-chain/lerax-chain/command"
+	"github.com/lerax-chain/lerax-chain/command/helper"
+	"github.com/lerax-chain/lerax-chain/command/server/config"
+	"github.com/lerax-chain/lerax-chain/command/server/export"
+	"github.com/lerax-chain/lerax-chain/server"
 	"github.com/spf13/cobra"
 )
 

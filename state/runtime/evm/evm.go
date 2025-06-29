@@ -3,8 +3,8 @@ package evm
 import (
 	"errors"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
+	"github.com/lerax-chain/lerax-chain/chain"
+	"github.com/lerax-chain/lerax-chain/state/runtime"
 )
 
 var _ runtime.Runtime = &EVM{}

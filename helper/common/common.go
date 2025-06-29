@@ -17,7 +17,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/helper/hex"
+	"github.com/lerax-chain/lerax-chain/helper/hex"
 	"github.com/sethvargo/go-retry"
 )
 

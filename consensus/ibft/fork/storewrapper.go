@@ -5,11 +5,11 @@ import (
 	"errors"
 	"path/filepath"
 
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/signer"
-	"github.com/0xPolygon/polygon-edge/validators"
-	"github.com/0xPolygon/polygon-edge/validators/store"
-	"github.com/0xPolygon/polygon-edge/validators/store/contract"
-	"github.com/0xPolygon/polygon-edge/validators/store/snapshot"
+	"github.com/lerax-chain/lerax-chain/consensus/ibft/signer"
+	"github.com/lerax-chain/lerax-chain/validators"
+	"github.com/lerax-chain/lerax-chain/validators/store"
+	"github.com/lerax-chain/lerax-chain/validators/store/contract"
+	"github.com/lerax-chain/lerax-chain/validators/store/snapshot"
 	"github.com/hashicorp/go-hclog"
 )
 

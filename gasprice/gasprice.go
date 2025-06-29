@@ -6,9 +6,9 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/lerax-chain/lerax-chain/chain"
+	"github.com/lerax-chain/lerax-chain/crypto"
+	"github.com/lerax-chain/lerax-chain/types"
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/umbracle/ethgo"
 )
