@@ -1,6 +1,6 @@
-# Polygon Edge docs
+# Lerax Chain docs
 
-Welcome to the Polygon Edge documentation, built with [the Material theme for MkDocs](https://squidfunk.github.io/mkdocs-material/).
+Welcome to the Lerax Chain documentation, built with [the Material theme for MkDocs](https://squidfunk.github.io/mkdocs-material/).
 
 ## Build and serve the site
 

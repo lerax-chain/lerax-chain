@@ -18,7 +18,7 @@ The client provides cross-compiled AMD64/ARM64 binaries for Darwin and Linux.
 To use Docker, you will need to have it installed on your system. If you haven't already installed Docker, you can follow the instructions on the
 [<ins>official Docker website</ins>](https://www.docker.com/) for your operating system.
 
-You can access the official Polygon Edge Docker images hosted under the [<ins>0xPolygon registry</ins>](https://hub.docker.com/r/0xpolygon/polygon-edge) using the following command:
+You can access the official Lerax Chain Docker images hosted under the [<ins>0xPolygon registry</ins>](https://hub.docker.com/r/0xpolygon/polygon-edge) using the following command:
 
   ```bash
   docker pull 0xpolygon/polygon-edge:latest
@@ -32,7 +32,7 @@ You can access the official Polygon Edge Docker images hosted under the [<ins>0x
 > To install Go, run the following command in your CLI (we are using 1.18 in this example): `sudo apt-get install golang-1.18`.
 > Or, use a package manager like [<ins>Snapcraft</ins>](https://snapcraft.io/go) for Linux, [<ins>Homebrew</ins>](https://formulae.brew.sh/formula/go) for Mac, and [<ins>Chocolatey</ins>](https://community.chocolatey.org/packages/golang) for Windows.
 
-Use the following commands to clone the Polygon Edge repository and build from source:
+Use the following commands to clone the Lerax Chain repository and build from source:
 
   ```bash
   git clone https://github.com/lerax-chain/lerax-chain.git

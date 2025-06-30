@@ -28,7 +28,7 @@ Ensure you have the following system prerequisites:
 | Golang (v1.15-1.19) | Install Go using CLI or package manager like [<ins>Snapcraft</ins>](https://snapcraft.io/go) for Linux, [<ins>Homebrew</ins>](https://formulae.brew.sh/formula/go) for Mac, or [<ins>Chocolatey</ins>](https://community.chocolatey.org/packages/golang) for Windows. Compatibility for other versions coming soon. |
 | Docker | Required to run the geth instance. Follow [<ins>official Docker documentation</ins>](https://www.docker.com/) for installation instructions. |
 | Internet connection | Stable internet connection required. |
-| Network security | Ensure that network ports used by Polygon Edge are not blocked by firewalls or other security measures. |
+| Network security | Ensure that network ports used by Lerax Chain are not blocked by firewalls or other security measures. |
 | Operating system | Ensure that the latest security patches and updates are installed. |
 
 !!! caution "Solidity v0.8.19 or earlier recommended"

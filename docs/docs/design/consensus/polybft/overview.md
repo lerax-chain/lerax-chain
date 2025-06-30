@@ -1,6 +1,6 @@
 ## Overview
 
-PolyBFT is a sophisticated and robust consensus mechanism employed by Polygon Edge.
+PolyBFT is a sophisticated and robust consensus mechanism employed by Lerax Chain.
 The consensus mechanism comprises two key components, a **consensus engine** and **consensus protocol**.
 PolyBFT utilizes the IBFT consensus engine and a Proof-of-Stake architecture to seal blocks, provide specific network capabilities, and govern the network.
 The core smart contracts work in tandem with the consensus engine to define all the network's Proof-of-Stake rules.

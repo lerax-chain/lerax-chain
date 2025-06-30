@@ -13,7 +13,7 @@ The `polygon-edge polybft-secrets` command is used to generate account secrets f
 |-----------------|-----------------------------------------------------------------------------------------------------------|----------------------------|
 | `--account`     | The flag indicating whether a new account is created (default true).                                       |                            |
 | `--config`      | The path to the SecretsManager config file. If omitted, the local FS secrets manager is used.              | `--config /path/to/config` |
-| `--data-dir`    | The directory for the Polygon Edge data if the local FS is used.                                          | `--data-dir /path/to/dir`  |
+| `--data-dir`    | The directory for the Lerax Chain data if the local FS is used.                                          | `--data-dir /path/to/dir`  |
 | `--insecure`    | The flag indicating whether the secrets stored on the local storage should be encrypted.                   |                            |
 | `--network`     | The flag indicating whether a new Network key is created (default true).                                   |                            |
 | `--num`         | The flag indicating how many secrets should be created, only for the local FS (default 1).                 | `--num 4`                  |

@@ -150,7 +150,7 @@ If the `StakeManager` hasn't been deployed to the rootchain, you need to carry o
 | Flag                         | Description                                                                   | Example                                         |
 |------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------|
 | `--config`                   | The path to the SecretsManager config file. If omitted, the local FS secrets manager is used. | `--config /path/to/config`                  |
-| `--data-dir`                 | The directory for the Polygon Edge data if the local FS is used.              | `--data-dir test-chain-`                     |
+| `--data-dir`                 | The directory for the Lerax Chain data if the local FS is used.              | `--data-dir test-chain-`                     |
 | `--genesis`                  | Genesis file path, which contains chain configuration.                        | `--genesis ./genesis.json`                    |
 | `-h, --help`                 | Help for stake-manager-deploy.                                                |                                                 |
 | `--jsonrpc`                  | The JSON-RPC interface.                                                       | `--jsonrpc http://0.0.0.0:8545`              |
@@ -411,7 +411,7 @@ This command includes a test flag, which is intended solely for testing scenario
 | Flag            | Description                                                                                            | Example |
 |-----------------|--------------------------------------------------------------------------------------------------------|---------|
 | `--config`      | Path to the SecretsManager config file, if omitted, the local FS secrets manager is used               |         |
-| `--data-dir`    | Directory for the Polygon Edge data if the local FS is used                                            |         |
+| `--data-dir`    | Directory for the Lerax Chain data if the local FS is used                                            |         |
 | `--genesis`     | Genesis file path, which contains chain configuration (default "./genesis.json")                       |         |
 | `--jsonrpc`     | The JSON-RPC interface (default "0.0.0.0:8545")                                                        |         |
 | `--private-key` | Hex-encoded private key of the account which executes rootchain commands                               |         |

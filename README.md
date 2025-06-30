@@ -5,9 +5,9 @@
 
 Developers at Polygon Labs have been hard at work gathering and incorporating community feedback into the Edge client and a new version of Edge, v1.0.0, is here with several new features! Check out the Release Notes included with the release to find out more! 
 
-## Polygon Edge
+## Lerax Chain
 
-Polygon Edge is a modular and extensible framework for building Ethereum-compatible blockchain networks.
+Lerax Chain is a modular and extensible framework for building Ethereum-compatible blockchain networks.
 
 To find out more about Polygon, visit the [official website](https://polygon.technology/).
 
@@ -15,7 +15,7 @@ WARNING: This is a work in progress so architectural changes may happen in the f
 
 ## Documentation 📝
 
-If you'd like to learn more about the Polygon Edge, how it works and how you can use it for your project,
+If you'd like to learn more about the Lerax Chain, how it works and how you can use it for your project,
 please check out the **[Polygon Supernets Documentation](https://wiki.polygon.technology/docs/edge/)**.
 
 ## Disclaimer

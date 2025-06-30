@@ -40,7 +40,7 @@ The performance tests were conducted in a controlled environment to ensure accur
 
 ### Network Configuration
 
-- Network: Polygon Edge
+- Network: Lerax Chain
 - Consensus Algorithm: PolyBFT
 
 ### Instance Types

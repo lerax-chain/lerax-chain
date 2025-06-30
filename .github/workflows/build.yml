@@ -11,7 +11,7 @@ on:  # yamllint disable-line rule:truthy
 
 jobs:
   go_build:
-    name: Polygon Edge
+    name: Lerax Chain
     runs-on: ubuntu-latest
     outputs:
       build_output_failure: ${{ steps.edge_build_failure.outputs.build_output }}
@@ -24,7 +24,7 @@ jobs:
         with:
           go-version: 1.20.x
 
-      - name: Build Polygon Edge
+      - name: Build Lerax Chain
         run: go build -tags netgo -ldflags="-s -w -linkmode external -extldflags "-static" -X \"github.com/lerax-chain/lerax-chain/versioning.Version=${GITHUB_REF_NAME}\" -X \"github.com/lerax-chain/lerax-chain/versioning.Commit=${GITHUB_SHA}\"" && tar -czvf polygon-edge.tar.gz polygon-edge
         env:
           CC: gcc
@@ -32,7 +32,7 @@ jobs:
           GOARC: amd64
           GOOS: linux
 
-      - name: Build Polygon Edge Failed
+      - name: Build Lerax Chain Failed
         if: failure()
         id: edge_build_failure
         run: echo "build_output=false" >> $GITHUB_OUTPUT

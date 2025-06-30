@@ -22,7 +22,7 @@ To create the chain configuration, we use the `polygon-edge genesis` command, wh
 | `--burn-contract string` | The burn contract block and address (format: `<block>:<address>[:<burn> destination]`) | `--burn-contract 100:0x742d35Cc6634C0532925a3b844Bc454e4438f44e` |
 | `--chain-id uint`                         | The ID of the chain (default 100) | `--chain-id 1234` |
 | `--consensus string`                      | The consensus protocol to be used (default "polybft") | `--consensus ibft` |
-| `--dir string`                            | The directory for the Polygon Edge genesis data (default "./genesis.json") | `--dir ./genesis_data` |
+| `--dir string`                            | The directory for the Lerax Chain genesis data (default "./genesis.json") | `--dir ./genesis_data` |
 | `--epoch-reward uint`                     | Reward size for block sealing (default 1) | `--epoch-reward 1000000000000000000` |
 | `--epoch-size uint`                       | The epoch size for the chain (default 100000) | `--epoch-size 100` |
 | `--ibft-validator stringArray`            | Addresses to be used as IBFT validators, can be used multiple times. Needs to be present if ibft-validators-prefix-path is omitted | `--ibft-validator 0x742d35Cc6634C0532925a3b844Bc454e4438f44e` |

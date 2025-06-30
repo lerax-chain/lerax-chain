@@ -16,7 +16,7 @@ This can be done using the `polygon-edge polybft whitelist-validators` command. 
 | `--private-key`     | Hex-encoded private key of the account that deploys the SupernetManager contract                | `--private-key <hex_encoded_rootchain_account_private_key_of_CustomSupernetManager_deployer>`             |
 | `--addresses`       | Comma-separated list of hex-encoded addresses of validators to be whitelisted                   | `--addresses 0x8a98f47a9820e3f3a6C16f44194F1d7eCCe3A110,0x8a98f47a9820e3f3a6C16f44194F1d7eCCe3A110` |
 | --supernet-manager| Address of the SupernetManager contract on the rootchain                                        | `--supernet-manager 0x3c6f8c6Fd90b2Bee1E78E2B2D1e7aB6cFf9Dc113` |
-| `--data-dir`        | Directory for the Polygon Edge data if the local FS is used                                     | `--data-dir ./polygon-edge/data`             |
+| `--data-dir`        | Directory for the Lerax Chain data if the local FS is used                                     | `--data-dir ./polygon-edge/data`             |
 | `--jsonrpc`         | JSON-RPC interface                                                                              | `--jsonrpc 0.0.0.0:8545`                    |
 | `--config`          | Path to the SecretsManager config file. If omitted, the local FS secrets manager is used        | `--config /path/to/config/file.yaml`        |
 
@@ -68,7 +68,7 @@ Each validator needs to perform initial staking on the rootchain `StakeManager` 
 | `--amount `                     | The amount to stake                                                            | `--amount 5000000000000000000`           |
 | `--supernet-id`                 | The ID of the supernet provided by stake manager on supernet registration      | `--chain-id 100`                         |
 | `--config `                     | The path to the SecretsManager config file                                     | `--config /path/to/config/file.yaml`     |
-| `--data-dir`                    | The directory for the Polygon Edge data                                        | `--data-dir ./polygon-edge/data`         |
+| `--data-dir`                    | The directory for the Lerax Chain data                                        | `--data-dir ./polygon-edge/data`         |
 | `--jsonrpc`                     | The JSON-RPC interface                                                         | `--jsonrpc 0.0.0.0:8545`                |
 | `--stake-token `                | The address of ERC20 Token used for staking on rootchain                       | `--native-root-token 0x<token_address>`  |
 | `--stake-manager`               | The address of the stake manager contract                                      | `--stake-manager 0x<manager_address>`   |

@@ -14,7 +14,7 @@ type DepLicense struct {
 }
 
 var (
-	// Polygon Edge License
+	// Lerax Chain License
 	License string
 
 	// Dependency Licenses

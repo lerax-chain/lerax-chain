@@ -12,7 +12,7 @@ Each validator needs to perform initial staking on the rootchain `StakeManager` 
 | `--amount `                     | The amount to stake                                                            | `--amount 5000000000000000000`           |
 | `--supernet-id`                 | The ID of the supernet provided by stake manager on supernet registration      | `--chain-id 100`                         |
 | `--config `                     | The path to the SecretsManager config file                                     | `--config /path/to/config/file.yaml`     |
-| `--data-dir`                    | The directory for the Polygon Edge data                                        | `--data-dir ./polygon-edge/data`         |
+| `--data-dir`                    | The directory for the Lerax Chain data                                        | `--data-dir ./polygon-edge/data`         |
 | `--jsonrpc`                     | The JSON-RPC interface                                                         | `--jsonrpc 0.0.0.0:8545`                |
 | `--stake-token `                | The address of ERC20 Token used for staking on rootchain                       | `--native-root-token 0x<token_address>`  |
 | `--stake-manager`               | The address of the stake manager contract                                      | `--stake-manager 0x<manager_address>`   |

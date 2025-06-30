@@ -13,7 +13,7 @@ First, check your validator information by running the `polygon-edge polybft val
 |------|-------------|---------|
 | `--chain-id` | ID of Supernet | `137` |
 | `--config` | The path to the SecretsManager config file, if omitted, the local FS secrets manager is used | `/path/to/config.yaml` |
-| `--data-dir` | The directory for the Polygon Edge data if the local FS is used | `/path/to/data/dir` |
+| `--data-dir` | The directory for the Lerax Chain data if the local FS is used | `/path/to/data/dir` |
 | `-h`, `--help` | Help for validator-info | |
 | `--jsonrpc` | The JSON-RPC interface (default "0.0.0.0:8545") | `http://localhost:8545` |
 | `--stake-manager` | Address of stake manager contract | `0x123...` |
@@ -38,7 +38,7 @@ To unstake, use the `polygon-edge polybft unstake` command.
 |---------------------|------------------------------------------------------------|---------------------------------------|
 | --amount            | Amount to unstake from validator                            | --amount 1000                         |
 | --config            | Path to the SecretsManager config file                     | --config /path/to/config/file        |
-| --data-dir          | Directory for the Polygon Edge data if the local FS is used | --data-dir /path/to/data/dir          |
+| --data-dir          | Directory for the Lerax Chain data if the local FS is used | --data-dir /path/to/data/dir          |
 | --jsonrpc           | JSON-RPC interface                                         | --jsonrpc 0.0.0.0:8545                |
 
 </details>
@@ -60,7 +60,7 @@ Once you have successfully unstaked, you will need to withdraw your unstaked tok
 | Flag | Description | Example |
 |------|-------------|---------|
 | `--config` | The path to the SecretsManager config file, if omitted, the local FS secrets manager is used | `~/secrets.json` |
-| `--data-dir` | The directory for the Polygon Edge data if the local FS is used | `~/polygon-edge/data` |
+| `--data-dir` | The directory for the Lerax Chain data if the local FS is used | `~/polygon-edge/data` |
 | `--jsonrpc` | The JSON-RPC interface (default "0.0.0.0:8545") | `127.0.0.1:8545` |
 
 </details>
@@ -118,7 +118,7 @@ Finally, you can withdraw your tokens from the rootchain to your address by usin
 |------------------------|-----------------------------------------|------------------------------------|
 | --amount               | amount to withdraw                      | --amount 1000000000000000000       |
 | --config               | path to the SecretsManager config file  | --config /path/to/config           |
-| --data-dir             | directory for the Polygon Edge data     | --data-dir /path/to/data/dir       |
+| --data-dir             | directory for the Lerax Chain data     | --data-dir /path/to/data/dir       |
 | --jsonrpc              | JSON-RPC interface                       | --jsonrpc 0.0.0.0:8545             |
 | --stake-manager        | address of stake manager contract        | --stake-manager 0x123abc           |
 | --to                   | address where to withdraw                | --to 0x456def                      |

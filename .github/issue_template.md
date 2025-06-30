@@ -4,7 +4,7 @@ Describe your issue in as much detail as possible here.
 
 ## Your environment
 - OS and version.
-- The version of the Polygon Edge.    
+- The version of the Lerax Chain.    
   (*Confirm the version of your Polygon edge client by running the following command: `polygon-edge version --grpc-address GRPC_ADDRESS`*)
 - The branch that causes this issue.
 - Locally or Cloud hosted (which provider).
