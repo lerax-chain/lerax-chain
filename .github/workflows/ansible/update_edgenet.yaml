@@ -12,7 +12,7 @@
         update_cache: yes
 
     ## stop polygon-edge service
-    - name: Stop polygon edge service
+    - name: Stop lerax chain service
       systemd:
         state: stopped
         name: polygon-edge
@@ -59,7 +59,7 @@
         state: absent
         path: /tmp/polygon-edge
 
-    ## start polygon edge service
+    ## start lerax-chain service
     - name: Start polygon-edge service
       systemd:
         state: restarted

@@ -5,7 +5,7 @@ Describe your issue in as much detail as possible here.
 ## Your environment
 - OS and version.
 - The version of the Lerax Chain.    
-  (*Confirm the version of your Polygon edge client by running the following command: `polygon-edge version --grpc-address GRPC_ADDRESS`*)
+  (*Confirm the version of your Lerax chain client by running the following command: `polygon-edge version --grpc-address GRPC_ADDRESS`*)
 - The branch that causes this issue.
 - Locally or Cloud hosted (which provider).
 - Please confirm if the validators are running under containerized environment (K8s, Docker, etc.).
